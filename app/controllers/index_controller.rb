@@ -3,7 +3,7 @@ class IndexController < ApplicationController
   def students 
     @students = Student.all
     
-    render "views/students/index"
+    render "app/views/students/index"
   end
   
   
