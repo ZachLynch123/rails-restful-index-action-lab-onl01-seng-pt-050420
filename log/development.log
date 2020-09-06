@@ -294,3 +294,10 @@ app/controllers/index_controller.rb:5:in `students'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (28.7ms)
+Started GET "/students" for 174.30.203.235 at 2020-09-06 22:31:25 +0000
+Processing by IndexController#students as HTML
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 334ms (Views: 332.3ms | ActiveRecord: 0.0ms)
+
+
